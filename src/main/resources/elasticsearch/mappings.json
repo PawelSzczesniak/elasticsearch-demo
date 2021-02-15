@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "name": {
+      "type": "text",
+      "store": true
+    },
+    "price": {
+      "type": "double"
+    },
+    "ean": {
+      "type": "keyword"
+    },
+    "sku": {
+      "type": "keyword"
+    },
+    "description": {
+      "type": "keyword"
+    },
+    "quantity": {
+      "type": "double"
+    },
+    "taxRate": {
+      "type": "double"
+    },
+    "weight": {
+      "type": "double"
+    },
+    "images": {
+      "type": "keyword",
+      "index": false
+    },
+    "delivery_schema_id": {
+      "type": "long"
+    },
+    "category_id": {
+      "type": "long"
+    }
+  }
+}
+
